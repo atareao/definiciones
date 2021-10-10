@@ -1,0 +1,19 @@
+Source: definiciones
+Section: utils
+Priority: extra
+Maintainer: Lorenzo Carbonell Cerezo <lorenzo.carbonell.cerezo@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: http://www.atareao.es
+
+Package: definiciones
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+    python3-gi,
+    gir1.2-gtk-3.0,
+    gir1.2-gdkpixbuf-2.0,
+    python3-requests,
+    python3-bs4
+Description: buscar definiciones de palabras
+ Una opción para buscar definiciones de palabras. Es necesario conexión a
+ internet.

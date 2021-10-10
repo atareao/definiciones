@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name = Definiciones
+GenericName = Definiciones
+Comment = Buscando directamente en el escritorio
+Exec = /opt/extras.ubuntu.com/definiciones/bin/definiciones
+Icon = /opt/extras.ubuntu.com/definiciones/share/pixmaps/definiciones.svg
+Type = Application
+Terminal = false
+StartupNotify = false
+Encoding = utf-8
+Categories = Utility;

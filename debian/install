@@ -1,0 +1,5 @@
+bin/* /usr/bin
+src/*.py /usr/share/definiciones
+debian/changelog /usr/share/definiciones
+data/definiciones.desktop /usr/share/applications
+data/icons/* /usr/share/icons/hicolor
