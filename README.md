@@ -1,16 +1,16 @@
-<h1 align="center">Welcome to Ubuntu First Steps 👋<h1>
+<h1 align="center">Bienvenido a definiciones 👋<h1>
 
 ![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3e704c3f150404582cd23b9fcb4be32)](https://www.codacy.com/manual/atareao/ubuntu-first-steps?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=atareao/ubuntu-first-steps&amp;utm_campaign=Badge_Grade)
-[![CodeFactor](https://www.codefactor.io/repository/github/atareao/ubuntu-first-steps/badge/master)](https://www.codefactor.io/repository/github/atareao/ubuntu-first-steps/overview/master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3e704c3f150404582cd23b9fcb4be32)](https://www.codacy.com/manual/atareao/definiciones?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=atareao/definiciones&amp;utm_campaign=Badge_Grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/atareao/definiciones/badge/master)](https://www.codefactor.io/repository/github/atareao/definiciones/overview/master)
 
 [![Twitter: atareao](https://img.shields.io/twitter/follow/atareao.svg?style=social)](https://twitter.com/atareao)
 
-<img src="./data/icons/scalable/apps/ubuntu-first-steps.svg" align="right"
+<img src="./data/icons/scalable/apps/definiciones.svg" align="right"
      title="start-here Logo" width="128" height="128">
 
 
-## 🏠 [Homepage](https://www.atareao.es/aplicacion/ubuntu-first-steps/)
+## 🏠 [Homepage](https://www.atareao.es/aplicacion/definiciones/)
 
 ## Prerequisites
 
@@ -23,54 +23,27 @@ Before you begin, ensure you have met the following requirements:
 python3-gi
 gir1.2-gtk-3.0
 gir1.2-gdkpixbuf-2.0
-gir1.2-glib-2.0
-gir1.2-vte-2.91
-gir1.2-handy-0.0
+python3-requests
+python3-bs4
 ```
 
-## Installing Ubuntu First Steps
+## Installing Definiciones
 
-To install **Ubuntu First Steps**, follow these steps:
+To install **Definiciones**, follow these steps:
 
 * In a terminal (`Ctrl+Alt+T`), run these commands
 
 ```
 sudo add-apt-repository ppa:atareao/atareao
 sudo apt update
-sudo apt install ubuntu-first-steps
+sudo apt install definiciones
 ```
 
-## Using Ubuntu First Steps
+## Utilizando definiciones
 
-**Ubuntu First Steps** has 5 main sections to custom the Ubuntu User Experience
+## Contributing to Definiciones
 
-* Custom dock
-
-![Custom dock](./screenshots/ubuntu-first-steps-screenshot-1.png)
-
-* Custom desktop
-
-![Custom desktop](./screenshots/ubuntu-first-steps-screenshot-2.png)
-
-* Privacy
-
-![Privacy](./screenshots/ubuntu-first-steps-screenshot-3.png)
-
-* Repositories
-
-![Repositorios](./screenshots/ubuntu-first-steps-screenshot-4.png)
-
-* Applications
-
-![Applications](./screenshots/ubuntu-first-steps-screenshot-5.png)
-
-### About this application
-
-![About this app](./screenshots/ubuntu-first-steps-screenshot-6.png)
-
-## Contributing to Ubuntu First Steps
-
-To contribute to **Ubuntu First Steps**, follow these steps:
+To contribute to **Definiciones**, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
@@ -93,7 +66,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 ## Contact
 
-If you want to contact me you can reach me at [atareao.es](https://www.atareao.es).
+If you want to contact me you can reach me at [atareao.es](https://atareao.es).
 
 ## License
 
