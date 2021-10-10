@@ -2,7 +2,7 @@
 
 ![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3e704c3f150404582cd23b9fcb4be32)](https://www.codacy.com/manual/atareao/definiciones?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=atareao/definiciones&amp;utm_campaign=Badge_Grade)
-[![CodeFactor](https://www.codefactor.io/repository/github/atareao/definiciones/badge/master)](https://www.codefactor.io/repository/github/atareao/definiciones/overview/master)
+[![CodeFactor](https://www.codefactor.io/repository/github/atareao/definiciones/badge)](https://www.codefactor.io/repository/github/atareao/definiciones)
 
 [![Twitter: atareao](https://img.shields.io/twitter/follow/atareao.svg?style=social)](https://twitter.com/atareao)
 
