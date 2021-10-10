@@ -71,7 +71,7 @@ class DictionaryDialog(Gtk.Dialog):
         scrolledwindow.set_policy(Gtk.PolicyType.AUTOMATIC,
                                   Gtk.PolicyType.AUTOMATIC)
         scrolledwindow.set_shadow_type(Gtk.ShadowType.ETCHED_OUT)
-        scrolledwindow.set_size_request(450,300)
+        scrolledwindow.set_size_request(450, 300)
         self.expander.add(scrolledwindow)
 
         store = Gtk.ListStore(str)
@@ -88,7 +88,7 @@ class DictionaryDialog(Gtk.Dialog):
         print(value)
 
     def on_expander_activate(self, _):
-        self.resize(1,1)
+        self.resize(1, 1)
 
     def on_activate(self, _):
         def on_search_done(result, _):
@@ -112,10 +112,10 @@ class DictionaryDialog(Gtk.Dialog):
                 if response.status_code == 200:
                     soup = BeautifulSoup(response.text, 'html.parser')
                     posts = soup.find_all(True,
-                                          {"class":["j", "j1", "j2", "j3",
-                                                    "j4", "j5", "j6", "k2",
-                                                    "k3","k4", "k5", "k6", "m",
-                                                    "l2", "f"]})
+                                          {"class": ["j", "j1", "j2", "j3",
+                                                     "j4", "j5", "j6", "k2",
+                                                     "k3", "k4", "k5", "k6",
+                                                     "m", "l2", "f"]})
                     if not posts:
                         print("contecontett")
                     else:
@@ -153,6 +153,7 @@ class DictionaryDialog(Gtk.Dialog):
         width = self.get_preferred_width()[0]
         height = self.get_preferred_height()[0]
         self.move((monitor_width - width)/2, (monitor_height - height)/2)
+
 
 if __name__ == "__main__":
     dd = DictionaryDialog()
